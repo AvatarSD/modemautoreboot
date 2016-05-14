@@ -18,7 +18,7 @@ while [[ 1 ]]; do
 			echo "Reboot!"
 			./rebootmodem.sh
 			counter=0
-			echo "Reboot $(date -u)" > reboot.log
+			echo "Reboot $(date -u)" >> reboot.log
 			sleep $wait_after_cyc
 		fi
 	fi
